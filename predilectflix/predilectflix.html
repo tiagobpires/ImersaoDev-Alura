@@ -1,0 +1,66 @@
+<html lang="pt-br">
+
+  <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <title>
+          PredilectFlix
+      </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+      <div class="container">
+          <h1 class="page-title">
+              Predilectflix
+          </h1>
+      </div>
+    
+      <div class="series">
+        <select name="series" id="options">
+            <option value="0">HIMYM</option>
+            <option value="1">This Is Us</option>
+            <option value="2">Modern Family</option>
+            <option value="3">Brooklyn 99</option>
+            <option value="4">Friends</option>
+            <option value="5">The 100</option>
+            <option value="6">Ginny & Georgia</option>
+        <select>
+        
+        <label for="stars" class="labelStars">Estrelas</label>
+        <input type="number" class="stars" id="stars" min="1" max="5" value="4"></input>
+        
+        <button type="submit" class="check" id="add">Adicionar</button>  
+      </div>
+      
+      <div class="series">
+        <button type="submit" class="check" id="personalizarFilme" onClick="novoFilme()">Personalizar Série</button>
+      </div>
+          
+      <form class="adicionar" id="form" onSubmit="return false;">
+        <div class="input">
+          <label for="name">Nome da série:</label>
+          <input type="text" class="name" id="name">
+        </div>
+        <div class="input">
+          <label for="urlImg">Foto de capa(url):</label>
+          <input type="url" class="name" id="urlImg">
+        </div>
+        <div class="input">
+          <label for="trailer">Trailer(url):</label>
+          <input type="url" class="name" id="trailer">
+        </div>
+        <div class="input">
+          <label for="stars" >Estrelas:</label>
+          <input type="number" id="novaSerieStar"min="1" max="5" value="4"></input>
+        </div>
+        <input class="submit" type="submit" id="adicionarNovoFilme">
+      </form>
+          
+      <div id = "catalogo"></div>
+          
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg"  alt="" class="alura-logo">
+      <script type="text/javascript" src="script.js"></script>
+  </body>
+
+</html>

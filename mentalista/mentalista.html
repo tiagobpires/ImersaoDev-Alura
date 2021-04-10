@@ -1,0 +1,49 @@
+<html lang="pt-br">
+
+  <head>
+      <title>
+          Mentalista
+      </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+      <div class="container">
+          <h1 class="page-title">
+              Mentalista
+          </h1>
+          <p class="page-subtitle">
+              Digite o intervalo do número e tente adivinhar o número secreto
+          </p>
+        
+    
+        <span class="label" id="labelMin">Mínimo:</span>
+        <input type="text" id="min"></input> 
+    
+        <span class="label" id="labelMax">Máximo:</span>
+        <input type="text" id="max"></input> 
+    
+        <span class="label" id="tentativas">Tentativas:</span>
+        <input type="text" id="numTentativas"></input> 
+
+        <button type="submit" id="start">Começar</button>
+        
+        <div id="tentar">
+          <span class="label" id="adivinhe">Adivinhe:</span>
+          <input type="text" id="numAdivinhe"></input>
+          <button type="submit" id="check">Checar</button>  
+        </div>    
+        <h2 id="feedback"></h2>
+        
+        <button type="submit" id="reload">Tentar Novamente</button>       
+      </div>
+
+      <a href="https://alura.com.br/" target="_blank">
+          <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+      </a>
+      
+      <script type="text/javascript" src="script.js"></script>
+  </body>
+
+</html>

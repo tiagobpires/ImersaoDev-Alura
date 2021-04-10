@@ -1,0 +1,55 @@
+<html>
+
+  <head>
+      <title>
+          Super Trunfo Pokemon
+      </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="page-title">Super Trunfo Pokemon</h1>
+      <form id="form">
+        <div class="wrapper">
+          <div id="placar"></div>
+          <div id="quantidade-cartas"></div>
+          <div id="round">
+              <div id="feedback-round">Sua vez - sorteie sua carta e selecione o atributo</div>
+          </div>
+          <div id="espaco-cartas">
+            <div id="espaco-jogador"> 
+                <figure class="baralho" id="baralho-jogador">
+                    <img onClick="sortearCarta()" id="img-baralho-jogador" src="https://guloseimasnerds.files.wordpress.com/2017/02/verso-carta-pkm.jpg"> 
+                    <figcaption> Sorteie sua carta clicando nela</figcaption>
+                </figure>
+                <div id="escore-jogador">
+                    <p>Vitórias: 0</p>
+                </div>
+            </div>
+              
+            <div id="cartas">
+                <div id="carta-jogador" class="carta"></div>
+                <div id="carta-maquina" class="carta"></div>
+            </div>
+            <div id="espaco-jogador"> 
+                <figure class="baralho" id="baralho-maquina">
+                    <img id="img-baralho-maquina" src="https://guloseimasnerds.files.wordpress.com/2017/02/verso-carta-pkm.jpg"> 
+                </figure>
+                <div id="escore-maquina">                      <p>Vitórias: 0</p>
+                </div>
+            </div>
+            
+        </div>
+          <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()"
+                  disabled="false">Jogar</button>
+          <div id="resultado"></div>
+          <button type="button" id="btnProximaRodada" onclick="proximaRodada()" disabled="true">Proxima
+              rodada</button>
+      </form>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+
+</html>

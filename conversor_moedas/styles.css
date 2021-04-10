@@ -1,0 +1,57 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 400px;
+  background-color: #000000;
+  background-size: 100vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 120px;
+  height: 55vh;
+}
+
+.page-title {
+  font-size: 48px;
+  color: #ffffff;
+  margin: 0 0 10px;
+}
+
+.page-subtitle {
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+#valor {
+  height: 25px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align:center;
+}
+
+#converter {
+  height: 28px;
+  width: 80px;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#converter:hover {
+    transform: scale(1.02);
+}
+
+#resultado {
+  color: white;
+}
+
+#obs {
+  font-size: 10px;
+  color: white;
+}

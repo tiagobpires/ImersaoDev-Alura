@@ -1,0 +1,172 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  text-align:center;
+  background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+  text-decoration: underline overline #B22222;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.alura-logo {
+  width: 7rem;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+body > img {
+  margin: 5px 10px;
+}
+
+.series {
+  background-color: #B22222;
+  width: 230px;
+  padding: 10px;
+  margin: 0 auto 12px;
+  border-radius: 7px;
+}
+
+#add {
+  height: 28px;
+  margin-left: 5px;
+  width: 80px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#options {
+  height: 28px;
+  margin-right: 5px;
+  width: 151.5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#add:hover, #options:hover, #personalizarFilme:hover {
+  background-color: #C0C0C0;
+}
+
+.serie {
+  display: inline-block;
+}
+
+.titulo {
+  color: white;
+  background-color: #B22222;
+  padding: 3px;
+}
+
+.imgSerie:hover {
+    transform: scale(0.985);
+}
+
+.checked {
+  color: orange;
+}
+
+.adicionar {
+  color: white;
+  background-color: #B22222;
+  text-align: center;
+  padding: 10px;
+  width: 408px;
+  border-radius: 7px;
+  margin: 0 auto 20px;
+}
+
+#personalizarFilme {
+  height: 28px;
+  width: 165px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: buttonface;
+}
+
+label {
+  display: inline-block; 
+  width: 200px;
+  text-align: left;
+}
+
+label {
+  display: inline-block; 
+  width: 200px;
+  text-align: left;
+}
+
+.labelStars {
+  height: 23px;
+  width: 100px;
+  padding-top: 5px;
+  margin: 10px 0px;
+  background-color: buttonface;
+  border-radius: 7px;
+  text-align:center;
+}
+
+.labelStars:hover {
+  background-color: #C0C0C0;
+}
+
+.stars {
+  height: 25.5px;
+  border: none;
+  background-color: buttonface;
+  border-radius: 7px;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.stars:hover {
+  background-color: C0C0C0;  
+}
+
+.input {
+  margin: 2px 0 9px;
+}
+
+#novaSerieStar {
+  width: 178px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.input > input, .submit {
+  background-color: buttonface;
+  border: none;
+}
+
+.input > input:hover, .submit:hover {
+  background-color: #C0C0C0;
+}
+
+.submit{
+  font-size: 14px;
+}
+
+#form {
+  display: none;
+}
