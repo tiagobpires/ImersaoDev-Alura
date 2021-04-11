@@ -4,9 +4,13 @@
 ![CSS3 badge](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white)
 ![JavaScript badge](https://img.shields.io/badge/-JavaScript-F29400?style=flat-square&logo=javascript&logoColor=white)
 
-### Portfólio feito no evento ImersãoDev da Alura, focado em lógica de programação com Javascript
-Disponível no [githubpages](https://tiagobpires.github.io/ImersaoDev-Alura/)
 
+### Portfólio feito no evento ImersãoDev da Alura, focado em lógica de programação com Javascript
+
+<p align="center"> 
+  <img alt="portfolio" src="images/certificard.gif"/>
+</p>
+<p align="center">Disponível no <a href="https://tiagobpires.github.io/ImersaoDev-Alura/">githubpages</a></p>
 
 💰 Conversor de Moedas   | ❓ Adivinhe o Pokemon
 :----------: | :----------:
